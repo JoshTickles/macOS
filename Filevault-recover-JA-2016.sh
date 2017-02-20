@@ -26,8 +26,8 @@ Click the Next button below, then enter your computer's password when prompted."
 # Path to jamfHelper.
 jamfHelper="/Library/Application Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper"
 # Your management account details (or any other account that you want to add to encryption)
-adminU='sadmin'
-adminP='aspirin'
+adminU='admin'
+adminP='pass'
 #################### Validation & info collection
 # Suppress errors for the duration of this script.
 exec 2>/dev/null

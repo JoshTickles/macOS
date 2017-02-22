@@ -7,7 +7,7 @@ Quick write up on how I use these 3 tools to great great looking moonitor graphs
 
 Okay I'm writing this up for monitoring a macOS system but it's easily adaptable for Linux boxes too. 
 
-# NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
+NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
 
 First:
 
@@ -20,7 +20,9 @@ First:
 `brew install python`
 
 * Now lets use `pip` to grab `glances`
+
 `pip install glances`
 
 * Finally we need the Influxdb module
+
 `pip install influx`

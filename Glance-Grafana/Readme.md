@@ -10,11 +10,13 @@ Okay I'm writing this up for monitoring a macOS system but it's easily adaptable
 
 # NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
 
-First:
---
-* Install brew if you have not already. https://brew.sh/
+First:--
+
+* Install brew if you have not already. https://brew.sh/ --
+
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
---
-* Once installed we need to grab Python.
+
+* Once installed we need to grab Python. --
+
 `brew install python`
---
+

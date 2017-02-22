@@ -7,12 +7,14 @@ Quick write up on how I use these 3 tools to great great looking moonitor graphs
 # Setup
 
 Okay I'm writing this up for monitoring a macOS system but it's easily adaptable for Linux boxes too. 
-NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
+
+# NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
 
 First:
-> Install brew if you have not already. https://brew.sh/
+--
+* Install brew if you have not already. https://brew.sh/
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-> Once installed we need to grab Python.
+--
+* Once installed we need to grab Python.
 `brew install python`
-
+--

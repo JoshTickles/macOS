@@ -47,9 +47,11 @@ Once you have the .conf file ready you need to copy it to another folder to make
 ### Starting the dataflow
 Done the above so far? Cool. Lets fire off some data to our Influx database.
 
-`--export-influxdb` is our trigger to output data via `glances`. I also like to add in a time fucntion and also to run the command silently (no output). All toghether that looks like:
+`--export-influxdb` is our trigger to output data via `glances`. I also like to add in a time function (to not slam the server) and also  run the command silently (no output). All together that looks like:
+
 `glances -t 5 --export-influxdb -q`
-Now this should start running and send your data to your influxdb server. Note for now you need to keep the terminal window open. In the future I'll add a LaunchDaemon to this so it can run in the background silently. 
+
+Now this should start glances running and send your data to your influxdb server. Note for now you need to keep the terminal window open. In the future I'll add a LaunchDaemon to this so it can run in the background silently. 
 
 
 

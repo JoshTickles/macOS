@@ -32,6 +32,8 @@ Okay, I'm writing this for monitoring a macOS system but it's easily adaptable f
 
 Great! That is pretty much it! Now lets create / edit a config file for `Glances` then start collecting data.
 
+***
+
 #### glances.conf
 The glances configuration file _should_ be stored in `/usr/local/etc/glances/`. 
 If that folder does not exsist go ahead and make it, then create the file. 
@@ -40,4 +42,6 @@ Using the glances.conf file in this repo copy it's contents and change the secti
 
 Once you have the .conf file ready you need to copy it to another folder to make everything work - kinda annoying.  
 `cp glances.conf /usr/local/share/doc/glances/`
+
+***
 

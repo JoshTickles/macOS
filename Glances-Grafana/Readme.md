@@ -1,6 +1,6 @@
 # Glances, influxDB and Grafana.
 
-Quick write up on how I use these 3 tools to great great looking moonitor graphs in a pinch. This is gonig to assume you have a VM with influxDB and Grafana already installed.
+Quick write up on how I use these 3 tools to great great looking moonitor graphs in a pinch. This is gonig to assume you have a VM with influxDB and Grafana already installed and have created your InfluxDB database.
 
 
 
@@ -8,7 +8,7 @@ Quick write up on how I use these 3 tools to great great looking moonitor graphs
 
 Okay, I'm writing this for monitoring a macOS system but it's easily adaptable for Linux boxes too. 
 
-> NOTE! If you're on a machine behing a proxy you can set the proxy for use in terminal using: `export ALL_PROXY=http:myProxy:port`
+> NOTE: If you're on a machine behind a proxy you can set the proxy for use in terminal by: `export ALL_PROXY=http://myProxy:port`
 
 ***
 
@@ -22,7 +22,7 @@ Okay, I'm writing this for monitoring a macOS system but it's easily adaptable f
 
 `brew install python`
 
-* Now lets use `pip` to grab `glances`
+* Now lets use `pip` to grab `glances`. 
 
 `pip install glances`
 
@@ -30,7 +30,7 @@ Okay, I'm writing this for monitoring a macOS system but it's easily adaptable f
 
 `pip install influx`
 
-Great! That is pretty much it! Now lets create / edit a config file for `Glances` then start collecting data.
+Great! That is pretty much it! Now lets create / edit a config file for `Glances` then start collecting data and piping to Influxdb
 
 ***
 

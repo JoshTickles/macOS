@@ -2,6 +2,7 @@
 
 Quick write up on how I use these 3 tools to great great looking moonitor graphs in a pinch. This is gonig to assume you have a VM with influxDB and Grafana already installed and have created your InfluxDB database.
 
+![](http://i.imgur.com/v4cuq5f.png)
 
 
 # Setup

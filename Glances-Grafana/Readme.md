@@ -10,6 +10,8 @@ Okay, I'm writing this for monitoring a macOS system but it's easily adaptable f
 
 > NOTE: If you're on a machine behind a proxy you can set the proxy for use in terminal by: `export ALL_PROXY=http://myProxy:port`
 
+To create a InfluxDB database SSH into your server and make sure the service is started. If it is run `influx` then we can create a new DB by running `CREATE DATABASE foo`. I usually name it 'glances' or such. 
+
 ***
 
 #### First:

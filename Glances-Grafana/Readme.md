@@ -43,6 +43,8 @@ If that folder does not exsist go ahead and make it, then create the file.
 
 Using the glances.conf file in this repo copy it's contents and change the section marked _InfluxDB_ under the _Export_ header. this should be all you need to get going though you can tweek other sections too but I've been fine leaving them as stock.  
 
+An important thing to note is the use of the _prefix_ line. Entering a value here will make it easier to identify which machine data to use in Grafana. If you set a username and password for your database don't forget to enter those details also. 
+
 Once you have the .conf file ready you need to copy it to another folder to make everything work - kinda annoying.  
 `cp glances.conf /usr/local/share/doc/glances/`
 

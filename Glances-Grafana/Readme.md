@@ -1,6 +1,8 @@
 # Glances, influxDB and Grafana.
 
-Quick write up on how I use these 3 tools to great great looking monitor graphs in a pinch. This is gonig to assume you have a VM with influxDB and Grafana already installed and have created your InfluxDB database.
+Quick write up on how I use these 3 tools to great great looking monitor graphs in a pinch. 
+
+This is gonig to assume you have influxDB and Grafana already installed and have created your InfluxDB database. You can install these via Docker however my prefered method is to spin up a Linux VM for centeral monitoring needs on your network. 
 
 ![](http://i.imgur.com/v4cuq5f.png)
 
@@ -15,7 +17,7 @@ To create a InfluxDB database SSH into your server and make sure the service is 
 
 ***
 
-#### First:
+#### Getting started:
 
 * Install brew if you have not already. https://brew.sh/ 
 
@@ -37,7 +39,7 @@ Great! That is pretty much it! Now lets create / edit a config file for `Glances
 
 ***
 
-#### glances.conf
+#### Confguration - glances.conf
 The glances configuration file _should_ be stored in `/usr/local/etc/glances/`. 
 If that folder does not exsist go ahead and make it, then create the file. 
 
@@ -64,12 +66,12 @@ Now it's time for the good stuff! Jump onto your Grafana instance and login. The
 Now, we need to add our database as a 'Data Source'. Click the logo in the top left, select 'Data Sources' then 'Add Data Source'.
 Select `InfulxDB` as the type and give the Source a name. Next enter you `InfluxDB` server IP:Port. Now select your database and enter the credentials (if required). 'Access' should be left at 'Proxy'. All going well when you save you should get a success popup. 
 
-##### Creating a dashboard.
+##### Creating a dashboard
 The easier way to do this is take my JSON configuration in this repo and copy it to a new Dashboard. From tehre you can go into each graph and change the source to your computer as defined by the prefix you set earlier. Simple right?
 
 The harder way to do this is to read the Grafana manual and create your own Dashboard. It's not too hard but takes a bit of time to learn. 
 
-
+***
 
 
 

@@ -56,10 +56,10 @@ echo "Brew is ready, now lets install MAS and get our Apps."
 
 if brew ls MAS > /dev/null; then
 	echo ""
-	echo "The MAS package is installed, nice work!"
+	echo "${GREEN}The MAS package is installed, nice work!${NOCOLOR}"
 else
 	echo ""
-	echo "The MAS package is not installed. Installing now..."
+	echo "${RED}The MAS package is not installed. Installing now...${NOCOLOR}"
 		brew install MAS
 fi
 

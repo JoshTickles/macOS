@@ -80,8 +80,7 @@ mas install 412448059	# Forklift ftp
 mas install 803453959	# Slack
 mas install 404010395	# TextWrangler
 mas install 715768417	# MS Remote Desktop
-mas install 1147396723	# Whatsapp desktop
-mas install 585829637	#ToDoList
+mas install 585829637	# ToDoList
 
 sleep 2
 

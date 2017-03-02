@@ -2,7 +2,7 @@
 
 Quick write up on how I use these 3 tools to great great looking monitor graphs in a pinch. 
 
-This is gonig to assume you have influxDB and Grafana already installed and have created your InfluxDB database. You can install these via Docker however my prefered method is to spin up a Linux VM for centeral monitoring needs on your network. 
+This is going to assume you have influxDB and Grafana already installed and have created your InfluxDB database. You can install these via Docker however my prefered method is to spin up a Linux VM for centeral monitoring needs on your network. 
 
 ![](http://i.imgur.com/v4cuq5f.png)
 
@@ -35,7 +35,7 @@ To create a InfluxDB database SSH into your server and make sure the service is 
 
 `pip install influx`
 
-Great! That is pretty much it! Now lets create / edit a config file for `Glances` then start collecting data and piping to Influxdb
+Great! That is pretty much it! Now lets create / edit a config file for `Glances` then start collecting data and piping to Influxdb.
 
 ***
 

@@ -69,7 +69,7 @@ Select `InfulxDB` as the type and give the Source a name. Next enter you `Influx
 ##### Creating a dashboard
 The easier way to do this is take my JSON configuration (granted its based on the one in the Glances repo) in my repo and copy it to a new Dashboard. From there you can go into each graph and change the source to your computer as defined by the prefix you set earlier. Simple right?
 
-![](http://i.imgur.com/nVvjPN7.png)
+![](http://i.imgur.com/nVvjPN7.png?1)
 
 The harder way to do this is to read the Grafana manual and create your own Dashboard. It's not too hard but takes a bit of time to learn. 
 

@@ -39,7 +39,7 @@ Great! That is pretty much it! Now lets create / edit a config file for `Glances
 
 ***
 
-#### Confguration - glances.conf
+#### Configuration - glances.conf
 The glances configuration file _should_ be stored in `/usr/local/etc/glances/`. 
 If that folder does not exsist go ahead and make it, then create the file. 
 
@@ -67,7 +67,9 @@ Now, we need to add our database as a 'Data Source'. Click the logo in the top l
 Select `InfulxDB` as the type and give the Source a name. Next enter you `InfluxDB` server IP:Port. Now select your database and enter the credentials (if required). 'Access' should be left at 'Proxy'. All going well when you save you should get a success popup. 
 
 ##### Creating a dashboard
-The easier way to do this is take my JSON configuration in this repo and copy it to a new Dashboard. From tehre you can go into each graph and change the source to your computer as defined by the prefix you set earlier. Simple right?
+The easier way to do this is take my JSON configuration (granted its based on the one in the Glances repo) in my repo and copy it to a new Dashboard. From there you can go into each graph and change the source to your computer as defined by the prefix you set earlier. Simple right?
+
+![](http://i.imgur.com/nVvjPN7.png)
 
 The harder way to do this is to read the Grafana manual and create your own Dashboard. It's not too hard but takes a bit of time to learn. 
 

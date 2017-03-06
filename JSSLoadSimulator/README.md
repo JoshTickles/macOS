@@ -1,7 +1,8 @@
 # JSSLoadSimulator
 
-## Requirements
+Lovingly pinched from the legendary mosen, and previously JAMF. https://github.com/mosen/JSSLoadSimulator
 
+## Requirements
 
 
 ## Usage

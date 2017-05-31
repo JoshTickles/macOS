@@ -1,9 +1,12 @@
 #!/bin/bash
 #
+# This will install all your favorite apps fromt the macOS appstore. It's designed for fresh installs / new computers to get you up and 
+# running quickly. 
 #
-# Install Brew, MAS and then gets a list of pre-defined applications.
-# Version 0.1
-# Josh - 27/02/2017
+# Checks for Brew, then installs MAS, then installs your Apps. :) 
+#
+# Version 0.6
+# Josh - 1/06/2017
 #
 
 #Colours for outputs. 
@@ -25,7 +28,7 @@ if (( $EUID != 0 )); then
 	echo ""
 	echo "${GREEN}Not running as root. Continuing...${NOCOLOR}"
 else
-	echo "${RED}You ran this as Sudo, please quit and run without root.${NOCOLOR}"
+	echo "${RED}You ran this as sudo, please quit and run without root.${NOCOLOR}"
 	exit
 fi
 
@@ -81,6 +84,7 @@ mas install 803453959	# Slack
 mas install 404010395	# TextWrangler
 mas install 715768417	# MS Remote Desktop
 mas install 585829637	# ToDoList
+mas install 885120167   # Particulars 
 
 sleep 2
 
